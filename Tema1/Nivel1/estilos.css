@@ -1,0 +1,126 @@
+* {
+    margin: 10px;
+    padding: 10px;
+  }
+  .padre {
+      display: flex;  
+      max-width: 1200px;
+      flex-flow: column wrap;
+  }
+  .header {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  .menu {
+    background: #2d4059;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+  }
+  .logo {
+    background: #ea5455;
+    flex: 1 1 auto;
+    height: 30px;
+  }
+  .nav {
+    background: #ea5455;
+    flex: 5 1 auto;
+    height: 30px;
+  }
+  .social {
+    background: #ea5455;
+    flex: 1 1 auto;
+    height: 30px;
+  }
+  .text-principal {
+    background: #f07b3f;
+  }
+  h1 {
+    background: #ffd460;
+  }
+  .section {
+    background: #000;
+    display: flex;
+  }
+  .articulos {
+    background: #4e4e6a;
+    flex: 3 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .article {
+    background: #1f6cb0;
+    flex: 1 1 40%;
+    
+  }
+  .navegacion {
+    background: #70a3c4;
+    flex: 1 1 100%;
+  }
+  .aside {
+
+    background: #f73f52;
+    flex: 1 1 auto;
+  }
+  .publicidad {
+    background: #ffea85;
+  }
+  .footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .foot {
+    background: #e6af2e;
+    width: 100%;
+  }
+  @media all  and (max-width: 768px){
+      .section{
+        flex-direction: column;
+        background: #e6fb08;
+      }
+      .aside{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+      }
+      .publicidad{
+        align-items: center;
+        width: 100%
+      }
+  }
+  @media all and (max-width: 425px){
+      .section{
+        flex-direction: column;
+        background: #e6fb08;
+      }
+      .aside{
+        flex-direction: column;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+      .menu{
+        flex-direction: column;
+        align-items: center;
+      }
+      .logo{
+        width: 80%;
+        height: 10px;
+      }
+      .nav{
+        width: 80%;
+        height: 10px;
+      }
+      .social{
+        width: 80%;
+        height: 10px;
+      }
+      .publicidad{
+        align-items: center;
+        width: 80%;
+  }
+  }
