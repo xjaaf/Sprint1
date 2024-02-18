@@ -1,0 +1,12 @@
+# Ignorar archivos de respaldo
+*~
+
+# Ignorar archivos de caché
+.cache/
+
+# Ignorar directorio de dependencias
+/vendor/
+
+.DS_Store
+
+Thumbs.db
